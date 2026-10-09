@@ -20,7 +20,7 @@
       <nav>
         <a href="index.html">Home</a>| <a href="about.html">About</a>|
         <a href="menu.html">Menu</a>| <a href="contact.html">Contact</a>|
-        <img src="./assets/icons/icons8-cart-48.png" alt="">
+        <a href="cart.html"><img src="./assets/icons/icons8-cart-48.png" alt=""></a>
       </nav>
     </header>
     <main >
@@ -37,49 +37,49 @@
         <a href="menu.html" class="menu-btn">Explore Menu</a>
        </div>
       </section>
-      <section id="Featured">
+      <section id="features">
         <h2>Why Choose BiteBox?</h2>
         <article>
-          <img src="assets/images/fresh ingrediant.jpeg" width="80" />
-          <h3>Fresh ingredients</h3>
+          <img src="./assets/icons/fresh.png" width="80" />
+          <div><h3>Fresh ingredients</h3>
           <p>
             Every meal is prepared using fresh vegetables and premium quality
             ingredients.
-          </p>
+          </p></div>
         </article>
         <article>
           <img
-            src="assets/images/hygienic.jpeg"
+            src="./assets/icons/hygienic.png"
             alt="Hygienic Kitchen"
             width="80"
           />
-          <h3>Hygienic Kitchen</h3>
+          <div><h3>Hygienic Kitchen</h3>
           <p>
             Our meals are prepared under strict hygiene standards by experienced
             chefs.
-          </p>
+          </p></div>
         </article>
 
         <article>
           <img
-            src="assets/images/easy.jpeg"
+            src="./assets/icons/easy-online (1).png"
             alt="Easy Online Ordering"
             width="80"
           />
-          <h3>Easy Online Ordering</h3>
+          <div><h3>Easy Online Ordering</h3>
           <p>
             Browse the menu, place your order, and enjoy your meal with just a
             few clicks.
-          </p>
+          </p></div>
         </article>
         <article>
           <img
-            src="assets/images/fast delivery.jpeg"
+            src="./assets/icons/fast.png"
             alt="Fast Delivery"
             width="80"
           />
-          <h3>Fast Delivery</h3>
-          <p>Get your favorite meals delivered quickly to your doorstep.</p>
+          <div><h3>Fast Delivery</h3>
+          <p>Get your favorite meals delivered quickly to your doorstep.</p></div>
         </article>
       </section>
       <hr />
@@ -120,9 +120,13 @@
         <article>
           <img src="assets/images/pizza.png" alt="Cheese Pizza" width="220" />
           <h3>Cheese Pizza</h3>
-          <p>Loaded with fresh vegetables and mozzarella cheese.</p>
-          <p><span>⭐⭐⭐⭐⭐ </span> <small>(126)</small></p>
-          <p><strong> ₹249 </strong></p>
+          <div class="details">
+            <p>Loaded with fresh vegetables and mozzarella cheese.</p>
+          <div class="ratings">
+            <p><span>⭐⭐⭐⭐⭐ </span> <small>(126)</small></p>
+          <p class="price"><strong> ₹249 </strong></p>
+          </div>
+          </div>
         </article>
         <article>
           <img
@@ -131,12 +135,14 @@
             width="220"
           />
           <h3>Chicken Burger</h3>
-          <p>Crispy chicken patty served with fresh lettuce and cheese.</p>
-          <p><span>⭐⭐⭐⭐⭐ </span> <small> (99)</small></p>
-          <p><strong>₹199</strong></p>
+          <div class="details">
+            <p>Crispy chicken patty served with fresh lettuce and cheese.</p>
+         <div class="ratings">
+           <p><span>⭐⭐⭐⭐⭐ </span> <small> (99)</small></p>
+          <p class="price"><strong>₹199</strong></p>
+         </div>
+        </div>
         </article>
-        Replace the existing Featured Dishes section with the Popular Dishes
-        section. 3 9
         <article>
           <img
             src="assets/images/pasta.png"
@@ -144,11 +150,14 @@
             width="220"
           />
           <h3>White Sauce Pasta</h3>
-          <p>
+          <div class="details"><p>
             Creamy white sauce pasta tossed with herbs and fresh vegetables.
           </p>
-          <p><span>⭐⭐⭐⭐⭐ </span><small> (76) </small></p>
-          <p><strong>₹229</strong></p>
+         <div class="ratings">
+           <p><span>⭐⭐⭐⭐⭐ </span><small> (76) </small></p>
+          <p class="price"><strong>₹229</strong></p>
+         </div>
+        </div>
         </article>
 
         <article>
@@ -158,27 +167,34 @@
             width="220"
           />
           <h3>Chicken Biryani</h3>
-          <p>
+          <div class="details">
+            <p>
             Aromatic basmati rice layered with tender chicken and authentic
             spices.
           </p>
-          <p><span>⭐⭐⭐⭐⭐ </span><small>(112)</small></p>
-          <p><strong>₹249</strong></p>
+          <div class="ratings">
+            <p><span>⭐⭐⭐⭐⭐ </span><small>(112)</small></p>
+          <p class="price"><strong>₹249</strong></p>
+          </div></div>
         </article>
 
         <article>
           <img src="assets/images/cake.jpeg" alt="Chocolate Cake" width="220" />
           <h3>Chocolate Cake</h3>
-          <p>Rich chocolate sponge layered with creamy chocolate frosting.</p>
-          <p><span>⭐⭐⭐⭐⭐</span><small>(58)</small></p>
-          <p><strong>₹149</strong></p>
+          <div class="details">
+            <p>Rich chocolate sponge layered with creamy chocolate frosting.</p>
+          <div class="ratings">
+            <p><span>⭐⭐⭐⭐⭐</span><small>(58)</small></p>
+          <p class="price"><strong>₹149</strong></p>
+          </div>
+          </div>
         </article>
 
         <!-- Today's specia offers -->
       </section>
-      <section id="offers">
+      <section id="offer">
           <div class="offer-content">
-            <h2>Today's Special Offer!</h2>
+            <h2><span>Today's</span> Special Offer!</h2>
             <p>
               Get <strong>20% OFF</strong> on all orders above
               <strong>₹499</strong>
@@ -187,7 +203,7 @@
             <a href="menu.html"> Order Now </a>
           </div>
 
-          <div class="offer-image">
+          <!-- <div class="offer-image">
             <img
               src="assets/images/pizza offer.jpeg"
               alt="Special Offer Pizza"
@@ -197,29 +213,40 @@
                 <img src="assets/images/20% off.jpeg" width="250
                 0" 
                 height="180">
-        </div>
+        </div> -->
       </section>
        <!--Customer Reviews-->
        <section id="reviews">
            <h2>What Our Customers Say</h2>
 
           <article>
-             <img src="assets/images/person 1.jpeg" alt="Priya Sharma" 
-                width="80" height="80">
-                <h3>Priya Sharma</h3>
+                
                 <p> Amazing food and super fast delivery.
                     BiteBox is my go-to place every time!
                 </p>
-                <p> <span>⭐⭐⭐⭐⭐</span> </p>
+                <div class="customer">
+                   <img src="assets/images/person 1.jpeg" alt="Priya Sharma" 
+                width="80" height="80">
+                <div>
+                  <h3>Priya Sharma</h3>
+                  <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                </div>
+                </div>
+                 
             </article>
-
           <article>
-             <img src="assets/images/person 2.jpeg" alt="Rahul Verma"
-             width="80"  height="80">
-              <h3>Rahul Verma</h3>                    The food quality is excellent and
+                <p>The food quality is excellent and
                     always fresh. Highly recommended!
                 </p>
-                <p> <span>⭐⭐⭐⭐⭐</span> </p>
+                <div class="customer">
+                    <img src="assets/images/person 2.jpeg" alt="Rahul Verma"
+             width="80"  height="80">
+            <div>
+                <h3>Rahul Verma</h3>    
+              <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+            </div>
+                </div>
+                </article>
         </section>
             <p>
       <p>Our beverages include H<sub>2</sub>O,Fresh Juices, and Soft Drink</p>
@@ -311,7 +338,7 @@
             <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="cart.html">Cart</a></li>
-        </u >
+        </ul>
     </section>
 
     <hr>
@@ -326,7 +353,6 @@
             <li>Return Policy</li>
             <li>Terms & Conditions</li>
         </ul>
-16
     </section>
 
     <hr>
